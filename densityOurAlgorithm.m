@@ -67,18 +67,6 @@ end
 legend('show')
 %%
 %%%% NIMIT I WAS JUST WRITING THIS PART
-fid= fopen('ScatterPlotOutliers', 'w');
-
-total_Clusters = size(samplesClust,1)
-selected_genes= size(samplesClust,2)
-for i= 1 : total_clusters
-    fprintf(fid, 'clusterID= %d', i);
-    for j= 1 : selected_genes
-        gene_index = samplesClust(i,j)
-        fprintf(fid, '%s', B1H_0I_M0_R1_Jcel(gene_index) );
-    end
-end   
-fclose(fid);
-        
-        
-        
+C = B1H_0I_M0_R1_Jcel(samplesClust);
+T = cell2table(C);
+writetable(T,'ScatterPlotOutliers.txt','WriteRowNames',false,'WriteVariableNames',false);
