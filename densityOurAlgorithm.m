@@ -66,7 +66,7 @@ for j = 1 : max(adjList)
 end
 legend('show')
 %%
-%%%% NIMIT I WAS JUST WRITING THIS PART
+
 C = B1H_0I_M0_R1_Jcel(samplesClust);
 T = cell2table(C);
 writetable(T,'ScatterPlotOutliers.txt','WriteRowNames',false,'WriteVariableNames',false);
