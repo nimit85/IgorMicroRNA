@@ -1,5 +1,6 @@
 % load outliers file
 someGenes = load('HH_BB1_gene_outliers.txt');
+load('geneNames.mat');
 
 % choose some number of genes
 K = 20;
