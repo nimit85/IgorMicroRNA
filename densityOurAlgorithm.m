@@ -1,5 +1,5 @@
 % load data
-load('4Haidar.mat', 'genes');
+load('HH_BB1_gene_loadings.mat', 'genes');
 
 % z-score data = zero mean, unit variance
 X = zscore(genes);
@@ -7,7 +7,7 @@ Q = X;
 
 % parameters - neighborhood size and number of neighbors
 epsil = 0.9;
-minpts = 40;
+minpts = 100;
 
 %%
 
@@ -59,14 +59,17 @@ for j = 1 : size(S,1)
     samplesClust(j,:) = onlyFew(1:minVal);
 end
 
-figure;
+figure; hold all;
 for j = 1 : max(adjList)
-    plot(Q(adjList == j,1), Q(adjList == j,2), '.'); %[clrs(mod(j, length(clrs))+1) '.']);    
-    hold all;
+    if j == max(adjList)
+        plot(Q(adjList == j,1), Q(adjList == j,2), '+');
+    else
+        plot(Q(adjList == j,1), Q(adjList == j,2), 'o');
+    end    
 end
 legend('show')
 %%
-
+load('geneNames.mat');
 C = B1H_0I_M0_R1_Jcel(samplesClust);
 T = cell2table(C);
 writetable(T,'ScatterPlotOutliers.txt','WriteRowNames',false,'WriteVariableNames',false);
