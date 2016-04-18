@@ -36,8 +36,12 @@ disp('Clusters calculated');
 U = unique(id);
 C = cell(numel(U),1);
 
+minVal = Inf;
 for iter = 1 : numel(U)
     C{iter} = find(id == iter);
+    if length(C{iter}) < minVal && ~isempty(C{iter})
+        minVal = length(C{iter});
+    end
 end
 
 % Collect all outlier points (noise)
@@ -47,6 +51,24 @@ Noise = find(~id);
 setOnes = ones(size(D,1),1);
 Border = (xor(setOnes, or(Core,~id)));
 
+% random sampling cntrOnS points from each cluster - samplesClust contains
+% the randomly sampled points
+samplesClust = zeros(length(U),minVal);
+for j = 1 : size(C,1)
+    if ~isempty(C{j})
+        F = C{j};
+        onlyFew = F(randperm(size(F,1)));
+        samplesClust(j,:) = onlyFew(1:minVal);
+    end
+end
+samplesClust(end,:) = [];
+
+load('geneNames.mat');
+C = B1H_0I_M0_R1_Jcel(samplesClust);
+T = cell2table(C);
+writetable(T,'DBScanOutliers.txt','WriteRowNames',false,'WriteVariableNames',false);
+
+%%
 % plot the clusters
 figure; hold on;
 for iter = 1 : numel(C)
@@ -67,6 +89,7 @@ else
     plot(D(Border),'Color','m','Marker','d','LineStyle','none');
 end
 legend('show');
+
 end
 
 function Nbrs = nbrFunc(thisPt, D, radius)
