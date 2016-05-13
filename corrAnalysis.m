@@ -27,8 +27,6 @@ for ii = 1 : max(U)
     end
 end
 
-genesCluster = cell(max(U)-1,1);
-iter = 1;
 for ii = 1 : max(U)
     if ii ~= markDel
         % get adjacency list for this cluster
@@ -109,32 +107,39 @@ for ii = 1 : max(U)
             tgt = Rcol;
             
             graphG = graph(src,tgt);
+            genesCluster = geneNames(thisCluster);
             F = degree(graphG);
             
             % remove nodes with degree 0 aka isolated nodes
             remNodes = find(F == 0);
+            genesCluster(remNodes) = [];
             graphG = rmnode(graphG,remNodes);
             
             % get gene names for nodes
             srcNodes = graphG.Edges.EndNodes(:,1);
             tgtNodes = graphG.Edges.EndNodes(:,2);
-            srcNames = geneNames(srcNodes);
-            tgtNames = geneNames(tgtNodes);
+            srcNames = genesCluster(srcNodes);
+            tgtNames = genesCluster(tgtNodes);
             unqNames = unique([srcNames; tgtNames]);
+            graphG.Nodes = unqNames;
             
             % to get paths in graph
-            bins = conncomp(graphG);
+            bins = conncomp(graphG,'OutputForm','cell');
+            save(['mouse_' num2str(opts) '_genebins_' num2str(U) ...
+                '_params_' num2str(jj)],'bins');
             
             % plot gene graph and heat map
-            figure; plot(graphG,'NodeLabel',unqNames,'NodeLabelMode','auto');
-            figure; imagesc(adjMat); axis equal; axis tight; colormap(jet);
-        end
-        
-%         G = [geneNames(thisCluster(Rrow)), geneNames(thisCluster(Rcol))];
-%         genesCluster{iter} = G;
-%         iter = iter + 1;
+            fig1 = figure('Visible','off'); 
+            plot(graphG,'NodeLabel',unqNames,'NodeLabelMode','auto');
+            title(['Params: ' num2str(bestBeta(jj)) ' ' num2str(bestParams(jj))]);
+            savefig(fig1,['mouse_' num2str(opts) '_cluster_' num2str(U) ...
+                '_params_' num2str(jj)]);
+            fig2 = figure('Visible','off'); 
+            imagesc(adjMat); axis equal; axis tight; colormap(jet);
+            title(['Params: ' num2str(bestBeta(jj)) ' ' num2str(bestParams(jj))]);
+            savefig(fig2,['mouse_' num2str(opts) '_heatmap_cluster_' num2str(U) ...
+                '_params_' num2str(jj)]);
+        end        
     end
 end
-
-% save(['correlatedGenesPerClusterMouse' num2str(opts) '.mat'],'genesCluster');
 end
