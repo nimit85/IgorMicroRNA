@@ -1,0 +1,293 @@
+Equivalence class 000:
+
+mouse_1_cluster_2_params_2_bins_1.xlsx condition MTB_B_R1.txt -- 000
+mouse_3_cluster_2_params_1_bins_1.xlsx condition MTB_H_R3.txt -- 000
+mouse_3_cluster_2_params_2_bins_1.xlsx condition MTB_H_R3.txt -- 000
+mouse_3_cluster_2_params_3_bins_1.xlsx condition MTB_H_R3.txt -- 000
+
+
+
+Equivalence class 001:
+
+mouse_3_cluster_3_params_5_bins_6.xlsx condition MTB_H_R3.txt -- 001
+mouse_1_cluster_2_params_3_bins_5.xlsx condition MTB+IFN_H_R1.txt -- 001
+mouse_3_cluster_3_params_1_bins_3.xlsx condition MTB_H_R3.txt -- 001
+mouse_3_cluster_3_params_2_bins_3.xlsx condition MTB_H_R3.txt -- 001
+mouse_3_cluster_3_params_4_bins_6.xlsx condition MTB_H_R3.txt -- 001
+mouse_3_cluster_3_params_3_bins_6.xlsx condition MTB_H_R3.txt -- 001
+
+
+
+Equivalence class 010:
+
+mouse_1_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_2_params_1_bins_1.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_2_params_1_bins_1.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_2_params_2_bins_1.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_B_R1.txt -- 010
+mouse_1_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_2_params_3_bins_1.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_2_params_3_bins_1.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_2_params_3_bins_5.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_1.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_1.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_3.xlsx condition MTB+IFN_B_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_3.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_3.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_5.xlsx condition MTB+IFN_B_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_5.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_5.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_3_params_1_bins_5.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_3_params_2_bins_1.xlsx condition MTB+IFN_B_R1.txt -- 010
+mouse_1_cluster_3_params_2_bins_1.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_3_params_2_bins_1.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_3_params_2_bins_1.xlsx condition MTB_H_R1.txt -- 010
+mouse_1_cluster_4_params_1_bins_2.xlsx condition MTB+IFN_H_R1.txt -- 010
+mouse_1_cluster_4_params_1_bins_2.xlsx condition MTB_B_R1.txt -- 010
+mouse_1_cluster_4_params_1_bins_2.xlsx condition MTB_H_R1.txt -- 010
+mouse_2_cluster_2_params_1_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_2_params_2_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_2_params_2_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_2_params_3_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_2_params_3_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_2_params_4_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_2_params_4_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_2_params_5_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_2_params_5_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_3_params_1_bins_1.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_3_params_1_bins_8.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_1_bins_3.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_1_bins_4.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_1_bins_8.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_2_bins_2.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_2_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_2_bins_6.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_3_bins_2.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_3_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_3_bins_6.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_4_bins_3.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_4_bins_4.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_4_bins_8.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_5_bins_2.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_5_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_5_bins_6.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_6_bins_2.xlsx condition MTB_H_R2.txt -- 010
+mouse_2_cluster_4_params_6_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_4_params_6_bins_6.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_5_params_1_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_5_params_1_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 010
+mouse_2_cluster_5_params_1_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 010
+mouse_3_cluster_2_params_3_bins_3.xlsx condition MTB+IFN_H_R3.txt -- 010
+mouse_3_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 010
+mouse_3_cluster_3_params_5_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 010
+mouse_3_cluster_3_params_2_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 010
+mouse_3_cluster_3_params_3_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 010
+mouse_3_cluster_3_params_4_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 010
+
+
+
+Equivalence class 011:
+
+mouse_1_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_H_R1.txt -- 011
+
+
+
+Equivalence class 100:
+
+mouse_1_cluster_2_params_3_bins_5.xlsx condition MTB_B_R1.txt -- 100
+mouse_2_cluster_4_params_1_bins_8.xlsx condition MTB+IFN_H_R2.txt -- 100
+mouse_2_cluster_4_params_2_bins_6.xlsx condition MTB+IFN_H_R2.txt -- 100
+mouse_2_cluster_4_params_3_bins_6.xlsx condition MTB+IFN_H_R2.txt -- 100
+mouse_2_cluster_4_params_4_bins_8.xlsx condition MTB+IFN_H_R2.txt -- 100
+mouse_2_cluster_4_params_5_bins_6.xlsx condition MTB+IFN_H_R2.txt -- 100
+mouse_2_cluster_4_params_6_bins_6.xlsx condition MTB+IFN_H_R2.txt -- 100
+
+
+
+Equivalence class 101:
+
+mouse_3_cluster_3_params_5_bins_6.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_3_params_5_bins_6.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_3_params_5_bins_6.xlsx condition MTB_B_R3.txt -- 101
+mouse_1_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_B_R1.txt -- 101
+mouse_1_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_H_R1.txt -- 101
+mouse_1_cluster_2_params_1_bins_3.xlsx condition MTB_B_R1.txt -- 101
+mouse_1_cluster_2_params_1_bins_3.xlsx condition MTB_H_R1.txt -- 101
+mouse_2_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_2_params_4_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_2_params_4_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_2_params_5_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_2_params_5_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_3_params_1_bins_8.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_1_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_1_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_1_bins_8.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_2_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_2_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_2_bins_6.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_3_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_3_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_3_bins_6.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_4_bins_3.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_4_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_4_bins_8.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_5_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_5_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_5_bins_6.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_4_params_6_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 101
+mouse_2_cluster_4_params_6_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 101
+mouse_2_cluster_4_params_6_bins_6.xlsx condition MTB_B_R2.txt -- 101
+mouse_2_cluster_5_params_1_bins_3.xlsx condition MTB_B_R2.txt -- 101
+mouse_3_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_2_params_1_bins_1.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_2_params_2_bins_1.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_2_params_3_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_2_params_3_bins_1.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_3_params_1_bins_3.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_3_params_1_bins_3.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_3_params_1_bins_3.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_3_params_2_bins_3.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_3_params_2_bins_3.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_3_params_2_bins_3.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_3_params_4_bins_6.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_3_params_4_bins_6.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_3_params_4_bins_6.xlsx condition MTB_B_R3.txt -- 101
+mouse_3_cluster_3_params_3_bins_6.xlsx condition MTB+IFN_B_R3.txt -- 101
+mouse_3_cluster_3_params_3_bins_6.xlsx condition MTB+IFN_H_R3.txt -- 101
+mouse_3_cluster_3_params_3_bins_6.xlsx condition MTB_B_R3.txt -- 101
+
+
+
+Equivalence class 110:
+
+mouse_3_cluster_5_params_1_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_5_params_1_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 110
+mouse_3_cluster_5_params_1_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_5_params_1_bins_1.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_3_params_5_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_3_params_5_bins_1.xlsx condition MTB_H_R3.txt -- 110
+mouse_1_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_B_R1.txt -- 110
+mouse_1_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_B_R1.txt -- 110
+mouse_1_cluster_2_params_3_bins_5.xlsx condition MTB+IFN_B_R1.txt -- 110
+mouse_1_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_B_R1.txt -- 110
+mouse_1_cluster_3_params_1_bins_3.xlsx condition MTB+IFN_H_R1.txt -- 110
+mouse_1_cluster_4_params_1_bins_2.xlsx condition MTB+IFN_B_R1.txt -- 110
+mouse_2_cluster_2_params_1_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_1_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_1_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_4.xlsx condition MTB+IFN_B_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_4.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_2_bins_4.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_5.xlsx condition MTB+IFN_B_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_5.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_3_bins_5.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_4.xlsx condition MTB+IFN_B_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_4.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_4_bins_4.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_5.xlsx condition MTB+IFN_B_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_5.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_2_params_5_bins_5.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_1.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_2.xlsx condition MTB+IFN_B_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_2.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_8.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_3_params_1_bins_8.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_1_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_1_bins_4.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_1_bins_4.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_1_bins_4.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_1_bins_8.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_2_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_2_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_2_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_2_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_2_bins_6.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_3_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_3_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_3_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_3_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_3_bins_6.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_4_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_4_bins_4.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_4_bins_4.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_4_bins_4.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_4_bins_8.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_5_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_5_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_5_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_5_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_5_bins_6.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_6_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_6_bins_3.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_4_params_6_bins_3.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_4_params_6_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_4_params_6_bins_6.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_5_params_1_bins_2.xlsx condition MTB+IFN_H_R2.txt -- 110
+mouse_2_cluster_5_params_1_bins_2.xlsx condition MTB_B_R2.txt -- 110
+mouse_2_cluster_5_params_1_bins_2.xlsx condition MTB_H_R2.txt -- 110
+mouse_2_cluster_5_params_1_bins_3.xlsx condition MTB_H_R2.txt -- 110
+mouse_3_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_2_params_1_bins_3.xlsx condition MTB+IFN_H_R3.txt -- 110
+mouse_3_cluster_2_params_1_bins_3.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_2_params_1_bins_3.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_2_params_2_bins_3.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_2_params_2_bins_3.xlsx condition MTB+IFN_H_R3.txt -- 110
+mouse_3_cluster_2_params_2_bins_3.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_2_params_2_bins_3.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_2_params_3_bins_3.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_2_params_3_bins_3.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_2_params_3_bins_3.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_3_params_1_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_3_params_1_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_3_params_1_bins_1.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_3_params_5_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_3_params_2_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_3_params_2_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_3_params_2_bins_1.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_3_params_3_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_3_params_3_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_3_params_3_bins_1.xlsx condition MTB_H_R3.txt -- 110
+mouse_3_cluster_3_params_4_bins_1.xlsx condition MTB+IFN_B_R3.txt -- 110
+mouse_3_cluster_3_params_4_bins_1.xlsx condition MTB_B_R3.txt -- 110
+mouse_3_cluster_3_params_4_bins_1.xlsx condition MTB_H_R3.txt -- 110
+
+
+
+Equivalence class 111:
+
+mouse_2_cluster_2_params_2_bins_4.xlsx condition MTB_B_R2.txt -- 111
+mouse_2_cluster_2_params_3_bins_5.xlsx condition MTB_B_R2.txt -- 111
+mouse_2_cluster_2_params_4_bins_4.xlsx condition MTB_B_R2.txt -- 111
+mouse_2_cluster_2_params_5_bins_5.xlsx condition MTB_B_R2.txt -- 111
+mouse_3_cluster_2_params_1_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 111
+mouse_3_cluster_2_params_2_bins_1.xlsx condition MTB+IFN_H_R3.txt -- 111
