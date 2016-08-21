@@ -7,6 +7,8 @@ clustMice1 = dir([clusterFolder 'mouse_1_cluster_*.xlsx']);
 clustMice2 = dir([clusterFolder 'mouse_2_cluster_*.xlsx']);
 clustMice3 = dir([clusterFolder 'mouse_3_cluster_*.xlsx']);
 
+filePtr = fopen([resultsFolder '/patternNames.txt'],'w');
+
 % for all mice
 for jj = 1 : size(mice,2)
     if jj == 1
@@ -59,19 +61,24 @@ for jj = 1 : size(mice,2)
                 pattern3 = sum(diff3) > 0.5*numel(diff3);
                 
                 pattern = [pattern1, pattern2, pattern3];
-                timePts = [1,2,3];
+                timePtsPlot = [1,2,3];
                 
                 % get probe names
                 legEntries = probes(ia,1);
-                plot(timePts,pattern+cntr);
+                plot(timePtsPlot,pattern+cntr);a
                 cntr = cntr + 2;
+                
+                str = strrep(miceFolder(kk).name,'.xlsx','');
+                str = [str, '_bins_' num2str(U(ll)) '.xlsx'];
+                fprintf(filePtr,'%s condition %s -- %d%d%d\n',...
+                    str,fileName,pattern(1),pattern(2),pattern(3));
             end
             
             if toSaveFlag
                 xlabel('Time difference patterns');
                 ylabel('Accumulated pattern');
                 ax = gca;
-                ax.XTickLabel = [1 2 3];
+                ax.XTick = [1 2 3];
                 legend(folderNames,'Location','EastOutside');
                 ax.YTickLabel = [0 1 0 1 0 1 0 1];
                 newName = strrep(miceFolder(kk).name,'.xlsx','');
@@ -82,6 +89,8 @@ for jj = 1 : size(mice,2)
                     'WriteVariableNames',false,'WriteRowNames',false);                
             end
             hold off; close all;
+            fprintf(filePtr,'\n');
         end
-    end
+    end    
 end
+fclose(filePtr);
